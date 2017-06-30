@@ -4,7 +4,15 @@
 
 /*ESTILOS DE INDEX SIGNUP*/
 
-
+.btn-index3{
+	width: 100%;
+	background-color: pink;
+	color: white;
+	border: none;
+	height: 60px;
+    line-height: 54px;
+    font-size: 26px;
+}
 
 /*ESTILOS DE INDEX SIGN USUARIO*/
 
