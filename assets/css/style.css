@@ -27,28 +27,28 @@
 	margin-left: 300px;
 }*/
 
-nav{
+.nav-index5{
 	background-color: #c4ccdf;
 }
 .card{
 	margin: 0px; /*quitar espacio que se generaba arriba de la imagen*/
 }
 
-.btn{
+.btn-index5{
 	background-color: #cccdce;
 	color: black;
 	margin-top: 20px;
 }
 
-.fa{
+.fa-index5{
 	margin-left: 20px;
 	margin-top: 15px;
 }
 
-.flow-text{
+.flow-text-index5{
 	background-color: #cccdce;
 }
 
-.texto{
+.texto-index5{
 	margin-top: 10px;
 }
