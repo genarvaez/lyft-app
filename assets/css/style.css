@@ -1,6 +1,54 @@
 /*ESTILOS DE INDEX HOME*/
 
+body{
+	background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    border: 2px solid #BD023B;
+    padding: 33%;
+    font-family: sans-serif;
+}
 
+
+.contenedor-imagen{
+	height: 200px;
+}
+
+.row .col{
+	float: none;
+}
+
+.contenedor-primer-boton{
+	display: inline-block;
+}
+
+.btn-mi-uno{
+	top: 300px;
+    right: 179px;
+    font-size: 36px;
+    height: 82px;
+    width: 253px;
+    padding: 20px;
+    text-transform: none;
+    background-color: rgba(59, 63, 62, 0.59);
+}
+
+.btn-mio-dos{
+    top: 217px;
+    left: 54px;
+    padding: 20px;
+    font-size: 36px;
+    height: 82px;
+    width: 253px;
+    text-transform: none;
+    background: purple;
+    background: -webkit-linear-gradient(left, blue , purple);
+    background: -o-linear-gradient(right, blue , purple);
+    background: -moz-linear-gradient(right, blue , purple);
+    background: linear-gradient(to right, #1e1e48 , purple);
+}
 
 /*ESTILOS DE INDEX SIGNUP*/
 
