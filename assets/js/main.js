@@ -1,4 +1,9 @@
 
+ /*Side bar*/
+
+ $(".button-collapse").sideNav();
+
+
 var inputHasta = document.getElementById('fin');
 
 function initMap(){
@@ -76,3 +81,4 @@ function initMap(){
 	 $(".found").click(trazar);
 	 window.addEventListener("load", buscar);
 }
+
