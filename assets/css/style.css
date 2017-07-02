@@ -39,21 +39,25 @@
 }
 ::placeholder{
 	padding-left: 45px;
+	text-indent: 10px;
 }
 hr{
     border: 1px solid grey;
 }
 .imp{
+	text-indent: 57px;
 	border-top: 1px solid #ccc !important;
 	border-bottom: 1px solid #ccc !important;
 	border-left: 1px solid #ccc !important;
 }
 .imp2{
+	text-indent: 57px;
 	border-top: 1px solid #ccc !important;
 	border-bottom: 1px solid #ccc !important;
 	border-right: 1px solid #ccc !important;
 }
 .imp3{
+	text-indent: 57px;
 	border: 1px solid #ccc !important;
 }
 .in{}
