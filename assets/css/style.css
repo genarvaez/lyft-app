@@ -18,21 +18,57 @@
 .input1-index3{
 	border: grey;
 }
-
-
-
+.join{
+	text-align: center;
+}
 .material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 30px
+	padding-right: 10px;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    text-align: left;
+    color: black;
 }
 .material-icons1 {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 50px
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    color: #000;
 }
+placeholder{
+	width: 10px;
+}
+hr{
+
+}
+.imp{
+	border-top: 1px solid #ccc !important;
+	border-bottom: 1px solid #ccc !important;
+	border-left: 1px solid #ccc !important;
+}
+.imp2{
+	border-top: 1px solid #ccc !important;
+	border-bottom: 1px solid #ccc !important;
+	border-right: 1px solid #ccc !important;
+}
+.imp3{
+	border: 1px solid #ccc !important;
+}
+.in{}
+.row .col {
+    padding: 0 !important;
+}
+.bloque{text-align:center;}
+.bloque2{text-align:left;}
+
+ /* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid #ccc !important;
+   box-shadow: none !important;
+ }
+
 /*ESTILOS DE INDEX SIGN USUARIO*/
 
 
