@@ -1,4 +1,9 @@
 
+ /*Side bar*/
+
+ $(".button-collapse").sideNav();
+
+
 var inputHasta = document.getElementById('fin');
 
 function initMap(){
