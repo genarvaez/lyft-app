@@ -37,11 +37,11 @@
     font-size: 50px;
     color: #000;
 }
-placeholder{
-	width: 10px;
+::placeholder{
+	padding-left: 45px;
 }
 hr{
-
+    border: 1px solid grey;
 }
 .imp{
 	border-top: 1px solid #ccc !important;
