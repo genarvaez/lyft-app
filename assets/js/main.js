@@ -24,7 +24,7 @@ function initMap(){
       google.maps.event.trigger(map, "resize");
       map.setCenter(center);
     });
-  
+
 	var longitud, latitud;
 
 	var funcionExito = function(posicion){
@@ -55,7 +55,7 @@ function initMap(){
 
       function calcularRuta(directionsService, directionsDisplay) {
         directionsService.route({
-          origin: document.getElementById('inicio').value,
+          origin: miUbicacion,
           destination: document.getElementById('fin').value,
           travelMode: 'DRIVING'
         }, function(response, status) {
@@ -76,3 +76,4 @@ function initMap(){
 	 $(".found").click(trazar);
 	 window.addEventListener("load", buscar);
 }
+
