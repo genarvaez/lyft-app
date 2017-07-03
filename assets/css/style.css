@@ -61,3 +61,11 @@
 .texto-index5{
 	margin-top: 10px;
 }
+.caja-vacia{
+    background-color: #c4ccdf;
+    margin-bottom: 0;
+}
+
+.materialboxed{
+    width: 100%;
+}
