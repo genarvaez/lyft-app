@@ -29,3 +29,22 @@
       $(".alert").hide()
     }
   })
+
+
+  /*INDEX SIGNUP TELEFONO*/
+
+$('.submit').click(function(){
+
+    var numero = 100 + Math.floor(Math.random() * 500);
+    var codigolab = "LAB-" + numero;
+
+    alert("Tu código de inscripción es: " + codigolab);
+
+    var ingresacod = prompt("Ingresa tu código: ");
+
+    if(codigolab == ingresacod){
+        alert("Código correcto");
+    }else{
+        alert("Reingresa el código");
+    };
+});
