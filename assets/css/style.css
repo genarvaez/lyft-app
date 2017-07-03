@@ -11,6 +11,9 @@
 
 
 /*ESTILOS DE INDEX SIGNUP*/
+.prueba{
+	display: none;
+}
 .flecha-index2{
 	text-align: center;
 	font-size: 50px;
@@ -21,6 +24,9 @@
 }
 #p-titulo-index2{
 	font-size: 40px;
+}
+.icon{
+	background-color: red;
 }
 /*ESTILOS DE INDEX SIGN USUARIO*/
 
