@@ -1,7 +1,5 @@
 
  /*Side bar*/
-
-
   $(".button-collapse").sideNav();
   $(".alert").hide();
 /*INDEX SIGN UP*/ 
