@@ -96,6 +96,16 @@ hr{
 	background-color: red;
 }
 /*ESTILOS DE INDEX SIGN USUARIO*/
+.alert{
+	width: 100%;
+	background: rgba(254, 255, 44, 0.2);
+	color: red;
+	position: fixed;
+	top: 0;
+	text-align: center;
+	margin-left: -10px
+
+}
 
 
 /*ESTILOS DE INDEX MAPS*/
