@@ -69,3 +69,12 @@
 .materialboxed{
     width: 100%;
 }
+
+.card-content{
+	text-align: center;
+	padding: 10px;
+}
+
+input{ /*inputs sin bordes*/
+	border:none;
+}

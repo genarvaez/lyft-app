@@ -1,15 +1,15 @@
 //index hmtl 5 para editar y subir una imagen
-$(".button-collapse").sideNav();
+
 $(document).ready(function() {
-            $("#uploadImage").hide();
-            $("#btnEdit").click(function() {
-                $("#uploadImage").show();
-               
-
-            });
+	$("#uploadImage").hide();
+	$("#btnEdit").click(function() {
+		$("#uploadImage").show();
 
 
-        });
+	});
+});
+
+
 
 
 //side nav index5 html
@@ -19,3 +19,8 @@ $(document).ready(function() {
 
 
  /*Side bar*/
+
+  $(document).ready(function() {
+    $('select').material_select();
+    $(".button-collapse").sideNav();
+});
