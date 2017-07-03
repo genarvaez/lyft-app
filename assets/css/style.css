@@ -11,10 +11,17 @@
 
 
 /*ESTILOS DE INDEX SIGNUP*/
-#primeraParte-index2{
+.flecha-index2{
 	text-align: center;
+	font-size: 50px;
+	margin-top: 10px;
 }
-
+#new-div{
+	padding-right: 20%;
+}
+#p-titulo-index2{
+	font-size: 40px;
+}
 /*ESTILOS DE INDEX SIGN USUARIO*/
 
 
