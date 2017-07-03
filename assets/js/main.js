@@ -1,4 +1,5 @@
 
+
  /*Side bar*/
 
 
@@ -48,3 +49,4 @@ $('.submit').click(function(){
         alert("Reingresa el código");
     };
 });
+
