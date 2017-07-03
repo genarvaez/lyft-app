@@ -1,6 +1,6 @@
 /*ESTILOS DE INDEX HOME*/
 
-body{
+#contenedor{
 	background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -12,7 +12,7 @@ body{
 }
 
 
-.contenedor-imagen{
+.contenedor-logo{
 	height: 200px;
 }
 
@@ -24,7 +24,7 @@ body{
 	display: inline-block;
 }
 
-.btn-mi-uno{
+.btn-mi-uno{/**clase que dara estilo al primer boton****/
 	top: 300px;
     right: 179px;
     font-size: 36px;
@@ -35,19 +35,19 @@ body{
     background-color: rgba(59, 63, 62, 0.59);
 }
 
-.btn-mio-dos{
+.btn-mio-dos{ /***clase que dara estilo al segundo boton****/
     top: 217px;
-    left: 54px;
+    left: 24px;
     padding: 20px;
     font-size: 36px;
     height: 82px;
     width: 253px;
     text-transform: none;
-    background: purple;
+    background: purple;/**Dara un color morado a los navegadores que no admiten degradados**/
     background: -webkit-linear-gradient(left, blue , purple);
     background: -o-linear-gradient(right, blue , purple);
     background: -moz-linear-gradient(right, blue , purple);
-    background: linear-gradient(to right, #1e1e48 , purple);
+    background: linear-gradient(to right, #1e1e48 , purple);/**Da color en degrade al segundo boton**/
 }
 
 /*ESTILOS DE INDEX SIGNUP*/
