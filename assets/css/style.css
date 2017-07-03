@@ -1,4 +1,84 @@
 
+*{
+	padding: 0; 
+	margin: 0;
+}
+
+
+/*ESTILOS DE INDEX HOME*/
+
+
+
+.btn-index3{
+	position: relative;
+	bottom:5px;
+	width: 100%;
+	background-color: #ff00bf;
+	color: white;
+	border: none;
+	height: 60px;
+    line-height: 54px;
+    font-size: 26px;
+}
+.input1-index3{
+	border: grey;
+}
+.join{
+	text-align: center;
+}
+.material-icons {
+	padding-right: 10px;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+}
+.material-icons1 {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    color: #000;
+}
+::placeholder{
+	padding-left: 45px;
+	text-indent: 10px;
+}
+hr{
+    border: 1px solid grey;
+}
+.imp{
+	text-indent: 57px;
+	border-top: 1px solid #ccc !important;
+	border-bottom: 1px solid #ccc !important;
+	border-left: 1px solid #ccc !important;
+}
+.imp2{
+	text-indent: 57px;
+	border-top: 1px solid #ccc !important;
+	border-bottom: 1px solid #ccc !important;
+	border-right: 1px solid #ccc !important;
+}
+.imp3{
+	text-indent: 57px;
+	border: 1px solid #ccc !important;
+}
+.in{}
+.row .col {
+    padding: 0 !important;
+}
+.bloque{text-align:center;}
+.bloque2{text-align:left;}
+
+ /* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid #ccc !important;
+   box-shadow: none !important;
+ }
+
+
 /*ESTILOS DE INDEX SIGNUP*/
 #input-numero{
 	position: relative;
@@ -32,6 +112,16 @@
 	font-size: 40px;
 }
 /*ESTILOS DE INDEX SIGN USUARIO*/
+.alert{
+	width: 100%;
+	background: rgba(254, 255, 44, 0.2);
+	color: red;
+	position: fixed;
+	top: 0;
+	text-align: center;
+	margin-left: -10px
+
+}
 
 
 /*ESTILOS DE INDEX MAPS*/
