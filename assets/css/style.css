@@ -40,10 +40,11 @@ body{
 }
 
 .btn-mi-uno{/**clase que dara estilo al primer boton****/
-    top: 300px;
+	top: 342px;
     font-size: 36px;
     height: 58px;
-    width: 154px;
+    width: 190px;
+    right: 24px;
     padding-left: 0;
     text-transform: none;
     background-color: rgba(59, 63, 62, 0.59);
@@ -51,12 +52,12 @@ body{
 }
 
 .btn-mio-dos{ /***clase que dara estilo al segundo boton****/
-    top: 235px;
-    right: 118px;
-    padding: 8px;
+    top: 284px;
+    right: 44px;
+    padding: 4px;
     font-size: 36px;
+    width: 190px;
     height: 58px;
-    width: 154px;
     text-transform: none;
     background: purple;/**Dara un color morado a los navegadores que no admiten degradados**/
     background: -webkit-linear-gradient(left, blue , purple);
