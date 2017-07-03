@@ -7,6 +7,77 @@
 
 /*ESTILOS DE INDEX HOME*/
 
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#contenedor{
+    background-image: url(../img/background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    border: 2px solid #BD023B;
+    width: 100%;
+    padding-left: 0px;
+}
+
+.logo-index{
+    width: 100px;
+    padding-top: 67px;
+}
+
+.contenedor-logo{
+    height: 200px;
+}
+
+.row .col{
+    float: none;
+}
+
+.contenedor-primer-boton{
+    display: inline-block;
+}
+
+.contenedor-segundo-boton{
+   margin: 0;
+}
+
+.btn-mi-uno{/**clase que dara estilo al primer boton****/
+	position: absolute;
+	border: 2px solid white;
+    bottom: 12%;
+    left: 7%;
+    font-size: 36px;
+    height: 58px;
+    width: 190px;
+    right: 24px;
+    padding-left: 0;
+    text-transform: none;
+    background-color: rgba(59, 63, 62, 0.59);
+    margin-left: 41px;
+}
+
+.btn-mio-dos{ /***clase que dara estilo al segundo boton****/
+	position: absolute;
+	border: 2px solid white;
+    bottom: 12%;
+    right: 20%;
+    padding: 4px;
+    font-size: 36px;
+    width: 190px;
+    height: 58px;
+    text-transform: none;
+    background: purple;/**Dara un color morado a los navegadores que no admiten degradados**/
+    background: -webkit-linear-gradient(left, blue , purple);
+    background: -o-linear-gradient(right, blue , purple);
+    background: -moz-linear-gradient(right, blue , purple);
+    background: linear-gradient(to right, #1e1e48 , purple);/**Da color en degrade al segundo boton**/
+}
+
 
 
 .btn-index3{
@@ -111,6 +182,96 @@ hr{
 #p-titulo-index2{
 	font-size: 40px;
 }
+
+img{
+	width: 40px;
+	padding-right: 5px;
+}
+.icon{
+	background-color: red;
+}
+.input-field{
+	width: 10%;
+}
+
+.controls{
+	position: absolute;
+	z-index: 200;
+	bottom: 20px;
+	left: 20px;
+	border-radius: 10px;
+}
+
+img{
+    width: 138px;
+    padding-right: 5px;
+    padding-left: 7px;
+    margin: 24px;
+}
+
+ul li{
+    font-size: 62px;
+    padding-bottom: 24px;
+}
+
+ul li .paises{
+    position: relative;
+    bottom: 39px;
+}
+
+.close{
+    padding-left: 628px;
+    font-size: 46px;
+}
+#found{
+	background-color: #AC58FA ;
+	color: white;
+	width: 90%;
+	padding: 10px;
+
+}
+.menu{
+	position: relative;
+	top: 30px;
+	z-index: 200;
+	left: 20px;
+	width: 50px;
+	height: 50px;
+	background: none;
+	border: 1px solid black;
+}
+.menu img{
+	width: 49px; 
+	height: 49px;
+	border: 2px solid white;
+}
+
+.row .col{
+	padding: 0;
+}
+.logo img{
+	width: 18%;
+	height: auto;
+	position: absolute;
+	top: 30px;
+	z-index: 200;
+	left: 40%;
+}
+
+.gift{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	z-index: 200;
+	width: 50px;
+	height: 50px;
+	background: white;
+	border: 2px solid grey;
+}
+.fa-gift{
+	color: #0B0B61 ;
+}
+
 /*ESTILOS DE INDEX SIGN USUARIO*/
 .alert{
 	width: 100%;
@@ -125,5 +286,78 @@ hr{
 
 
 /*ESTILOS DE INDEX MAPS*/
+
+#map{
+	width: 100%;
+	height: 100vh;
+	
+}
+.controls{
+	position: absolute;
+	z-index: 200;
+	bottom: 20px;
+	left: 20px;
+	border-radius: 10px;
+}
+
+#destino {
+	background-color: #fff;
+	font-family: Roboto;
+	border-radius: 10px;
+	bottom: 60px;
+	padding-left: 20px;
+	width: 86%;
+}
+
+#found{
+	background-color: #AC58FA;
+	color: white;
+	width: 90%;
+	padding: 10px;
+	
+}
+.menu{
+	position: absolute;
+	top: 30px;
+	z-index: 200;
+	left: 20px;
+	width: 50px;
+	height: 50px;
+	background: none;
+	border: none;
+}
+.menu img{
+	width: 49px; 
+	height: 49px;
+	border: 2px solid white;
+}
+
+.row .col{
+	padding: 0;
+}
+.logo img{
+	width: 18%;
+	height: auto;
+	position: absolute;
+	top: 30px;
+	z-index: 200;
+	left: 40%;
+}
+
+.gift{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	z-index: 200;
+	width: 50px;
+	height: 50px;
+	background: white;
+	border: 2px solid grey;
+}
+.fa-gift{
+	color: #0B0B61;
+}
+
+
 
 /*ESTILOS DE INDEX PROFILE*/
