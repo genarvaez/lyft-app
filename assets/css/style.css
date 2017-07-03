@@ -361,3 +361,64 @@ ul li .paises{
 
 
 /*ESTILOS DE INDEX PROFILE*/
+
+/*
+.btn{
+	margin-top: -500px;
+	margin-left: 300px;
+}*/
+
+.nav-index5{
+	background-color: #c4ccdf;
+}
+.card{
+	margin: 0px; /*quitar espacio que se generaba arriba de la imagen*/
+}
+/*
+#imgDisplay{
+	border-radius: 50%;
+	width: 15%;
+	height: 10%;
+
+	display: inline-block;
+
+}
+*/
+.btn-index5{
+	background-color: #cccdce;
+	color: black;
+	margin-top: 20px;
+}
+
+.fa-index5{
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.flow-text-index5{
+	background-color: #cccdce;
+}
+
+.texto-index5{
+	margin-top: 10px;
+}
+.caja-vacia{
+    background-color: #c4ccdf;
+    margin-bottom: 0;
+}
+
+.materialboxed{
+    width: 100%;
+}
+
+.card-content{
+	text-align: center;
+	padding: 10px;
+}
+
+input{ /*inputs sin bordes*/
+	border:none;
+}
+=======
+
+
