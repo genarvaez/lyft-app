@@ -1,47 +1,62 @@
 /*ESTILOS DE INDEX HOME*/
 
-#contenedor{
-	background-image: url(../img/background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    border: 2px solid #BD023B;
-    padding: 33%;
+body{
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
 }
 
+#contenedor{
+    background-image: url(../img/background.jpg);
+    height: 672px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    border: 2px solid #BD023B;
+    width: 64vh;
+    padding-left: 0px;
+}
+
+.logo-index{
+    width: 100px;
+    padding-top: 67px;
+}
 
 .contenedor-logo{
-	height: 200px;
+    height: 200px;
 }
 
 .row .col{
-	float: none;
+    float: none;
 }
 
 .contenedor-primer-boton{
-	display: inline-block;
+    display: inline-block;
+}
+
+.contenedor-segundo-boton{
+   margin: 0;
 }
 
 .btn-mi-uno{/**clase que dara estilo al primer boton****/
-	top: 300px;
-    right: 179px;
+    top: 300px;
     font-size: 36px;
-    height: 82px;
-    width: 253px;
-    padding: 20px;
+    height: 58px;
+    width: 154px;
+    padding-left: 0;
     text-transform: none;
     background-color: rgba(59, 63, 62, 0.59);
+    margin-left: 41px;
 }
 
 .btn-mio-dos{ /***clase que dara estilo al segundo boton****/
-    top: 217px;
-    left: 24px;
-    padding: 20px;
+    top: 235px;
+    right: 118px;
+    padding: 8px;
     font-size: 36px;
-    height: 82px;
-    width: 253px;
+    height: 58px;
+    width: 154px;
     text-transform: none;
     background: purple;/**Dara un color morado a los navegadores que no admiten degradados**/
     background: -webkit-linear-gradient(left, blue , purple);
@@ -49,6 +64,8 @@
     background: -moz-linear-gradient(right, blue , purple);
     background: linear-gradient(to right, #1e1e48 , purple);/**Da color en degrade al segundo boton**/
 }
+
+
 
 /*ESTILOS DE INDEX SIGNUP*/
 
