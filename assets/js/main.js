@@ -1,4 +1,5 @@
 
+
  /*Side bar*/
   $(".button-collapse").sideNav();
   $(".alert").hide();
@@ -46,3 +47,4 @@ $('.submit').click(function(){
         alert("Reingresa el código");
     };
 });
+
