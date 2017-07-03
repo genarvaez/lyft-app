@@ -75,6 +75,28 @@ body{
 
 /*ESTILOS DE INDEX SIGNUP*/
 
+img{
+    width: 138px;
+    padding-right: 5px;
+    padding-left: 7px;
+    margin: 24px;
+}
+
+ul li{
+    font-size: 62px;
+    padding-bottom: 24px;
+}
+
+ul li .paises{
+    position: relative;
+    bottom: 39px;
+}
+
+.close{
+    padding-left: 628px;
+    font-size: 46px;
+}
+
 
 
 /*ESTILOS DE INDEX SIGN USUARIO*/
