@@ -1,7 +1,101 @@
+$(document).ready(function() {
+  $("#uploadImage").hide();
+  $("#btnEdit").click(function() {
+    $("#uploadImage").show();
+  });
+  $('select').material_select();
+    $(".button-collapse").sideNav();
+});
 
+/***************************************SIGN UP TELÉFONO********************************************/
+
+var siguiente = $(".siguiente");
+
+siguiente.click(function(event){
+  var numero = $("#input-numero");
+  if(numero.val() == "" || !(/^\d{9}$/.test(numero.val()))){
+    event.preventDefault()
+  }
+  else{
+    codigo;
+    while(codigolab != ingresacod){
+      codigo;
+    }
+
+    var codigo = function(){
+      var numero = 100 + Math.floor(Math.random() * 500);
+      var codigolab = "LAB-" + numero;
+      alert("Tu código de inscripción es: " + codigolab);
+      var ingresacod = prompt("Ingresa tu código: ");
+    }
+  }
+})
+
+/********************************************SIGN UP SECTION****************************************/
+  var boton = $(".btn-index3");
+  var sign = $(".sign");
+  var enlace = $(".enlace").hide();
+  $(".alert").hide();
+
+  if($(".filled-in").change(function(){
+      if ($(this).prop("checked")){
+        boton.addClass("pink")
+      }
+      else{
+        boton.removeClass("pink");
+      } 
+  }))
+
+  boton.click(function(event){
+    var nombre = $(".input1-index3");
+    var email = $(".input2-index3");
+    if(nombre.val() == "" || !(/[a-zA-Z]/).test(nombre.val())){
+      $(".alert").show(400);
+      event.preventDefault();      
+    }
+    else if(!(/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/.test(email.val()))){
+      $(".alert").show(400);
+      event.preventDefault();     
+    }
+    else if(!$(".filled-in").prop('checked')){
+        $(".alert").show(400);
+        event.preventDefault();
+        $(".input1-index3").val("");
+        $(".input2-index3").val("");   
+    }
+    else{      
+      $(".alert").hide()
+    }
+  })
+/******************************************SECCION PROFILE*******************************************/
+var date = new Date();
+
+$(".fecha-user").html("JOINED " + date.getDate() + '/' + (date.getMonth() +1) + '/' + date.getFullYear());
+$(".changes").hide();
+$(".edit-user").hide();
+
+$(".info").click(function(){
+  $(".edit-user").show();
+  $(".info-user").hide();
+  $(".changes").show();
+})
+
+$(".changes").click(function(){
+    var city = $(".city").val();
+    var music= $(".music").val();
+    var places= $(".places").val();
+    $(".city-user").html(city);
+    $(".music-user").html(music);
+    $(".places-user").html(places);
+    $(".edit-user").hide();
+    $(".info-user").show()
+    $(this).hide();
+})
+
+/*cambio de foto*/
 var Resample = (function (canvas) {
 
-	// (C) WebReflection Mit Style License
+  // (C) WebReflection Mit Style License
 
   function Resample(img, width, height, onresample) {
 
@@ -77,7 +171,7 @@ var Resample = (function (canvas) {
     onresample(canvas.toDataURL("image/png"));
    }
 
-	var context = canvas.getContext("2d"),
+  var context = canvas.getContext("2d"),
   round = Math.round;
 
   return Resample;
@@ -111,53 +205,7 @@ function handleFileSelect(evt) {
   }
 }
 
-document.querySelector('#uploadImage').addEventListener('change', handleFileSelect, false);
-
- /*Side bar*/
-  $(".button-collapse").sideNav();
-  $(".alert").hide();
-/*INDEX SIGN UP*/ 
-  var nombre = $(".input1-index3");
-  var email = $(".input2-index3");
-  var boton = $(".btn-index3");
-  var enlace = $(".enlace");
-  
-  boton.click(function(){
-
-    if(nombre.val() == "" || !(/[a-zA-Z]/).test(nombre.val())){
-      $(".alert").show(400);
-      enlace.preventDefault();
-    }
-    else if(!(/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/.test(email.val()))){
-      $(".alert").show(400);
-      enlace.preventDefault();
-    }
-    else if(!$(".filled-in").prop('checked')){
-        $(".alert").show(400);
-        enlace.preventDefault();
-       }
-    else{
-      enlace.attr('href', 'index4.html');
-      $(".alert").hide()
-    }
-  })
+$('#uploadImage').on('change', handleFileSelect);
 
 
-  /*INDEX SIGNUP TELEFONO*/
-
-$('.submit').click(function(){
-
-    var numero = 100 + Math.floor(Math.random() * 500);
-    var codigolab = "LAB-" + numero;
-
-    alert("Tu código de inscripción es: " + codigolab);
-
-    var ingresacod = prompt("Ingresa tu código: ");
-
-    if(codigolab == ingresacod){
-        alert("Código correcto");
-    }else{
-        alert("Reingresa el código");
-    };
-});
 
