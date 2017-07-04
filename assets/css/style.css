@@ -2,16 +2,11 @@
 *{
 	padding: 0; 
 	margin: 0;
+	font-family: sans-serif;
 }
 
 
 /*ESTILOS DE INDEX HOME*/
-
-body{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
 
 #contenedor{
     background-image: url(../img/background.jpg);
@@ -19,58 +14,33 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin: 0;
-    border: 2px solid #BD023B;
     width: 100%;
     padding-left: 0px;
 }
-
 .logo-index{
     width: 100px;
     padding-top: 67px;
 }
 
-.contenedor-logo{
-    height: 200px;
-}
-
-.row .col{
-    float: none;
-}
-
-.contenedor-primer-boton{
-    display: inline-block;
-}
-
-.contenedor-segundo-boton{
-   margin: 0;
-}
-
-.btn-mi-uno{/**clase que dara estilo al primer boton****/
-	position: absolute;
+.mi-btn{/**clase que dara estilo al primer boton****/
 	border: 2px solid white;
-    bottom: 12%;
-    left: 7%;
-    font-size: 36px;
-    height: 58px;
-    width: 190px;
-    right: 24px;
-    padding-left: 0;
+	bottom: 30px;
+	position: absolute;
+	border-radius: 5px;
+    font-size: 1.4em;
+    width: 40%;
+    left: 10%;
+    height: 40px;
+    
+    padding-bottom: 55px;
     text-transform: none;
     background-color: rgba(59, 63, 62, 0.59);
     margin-left: 41px;
+    margin-left: -10px;
 }
 
-.btn-mio-dos{ /***clase que dara estilo al segundo boton****/
-	position: absolute;
-	border: 2px solid white;
-    bottom: 12%;
-    right: 20%;
-    padding: 4px;
-    font-size: 36px;
-    width: 190px;
-    height: 58px;
-    text-transform: none;
+.sign{ /***clase que dara estilo al segundo boton****/
+	margin-left: 45%;
     background: purple;/**Dara un color morado a los navegadores que no admiten degradados**/
     background: -webkit-linear-gradient(left, blue , purple);
     background: -o-linear-gradient(right, blue , purple);
@@ -78,19 +48,101 @@ body{
     background: linear-gradient(to right, #1e1e48 , purple);/**Da color en degrade al segundo boton**/
 }
 
+/******************************************FIN SECCION HOME****************************************/
+/*SECCION SIGN UP TELEFONO*/
 
-
-.btn-index3{
-	position: relative;
-	bottom:5px;
-	width: 100%;
+.flecha-index2{
+	font-size: 50px;
+	margin-top: 10px;
+	margin-left: 30px;
+	display: flex;
+}
+.pink{
 	background-color: #ff00bf;
-	color: white;
-	border: none;
-	height: 60px;
+}
+#p-titulo-index2{
+	font-size: 40px;
+	margin-left: -30px;
+}
+.btn-index3, .btn-index2{
+	position: relative;
+    bottom: 5px;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    border: none;
+    height: 60px;
     line-height: 54px;
     font-size: 26px;
 }
+hr{
+    border: 1px solid grey;
+    margin-bottom: 20px;
+}
+
+.siguiente{
+	margin-top: 80px;
+}
+
+#input-numero{
+	width: 40%;
+	height: 49px;
+	border: 1px solid #d8dfe4;
+	background-color: white;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+.boton-numero{
+	border-bottom-left-radius:3px;
+	border-top-left-radius: 3px;
+	padding: 15px;
+	border-style: none;
+	margin-right: 0; 
+	margin-left: 20%;
+}
+.fa-angle-down{
+	padding-left: 5px;
+}
+.flags{
+	width: 40px;
+	padding-right: 5px;
+}
+
+.input-field{
+	width: 10%;
+}
+
+.controls{
+	position: absolute;
+	z-index: 200;
+	bottom: 20px;
+	left: 20px;
+	border-radius: 10px;
+}
+
+.flags{
+    width: 138px;
+    padding-right: 5px;
+    padding-left: 7px;
+    margin: 24px;
+}
+
+ul li{
+    font-size: 62px;
+    padding-bottom: 24px;
+}
+
+ul li .paises{
+    position: relative;
+    bottom: 39px;
+}
+
+.close{
+    padding-left: 628px;
+    font-size: 46px;
+}
+/***************************************FIN SECCION USUARIO****************************************/
+/*INDEX 3 USUARIO*/
 .input1-index3{
 	border: grey;
 }
@@ -117,9 +169,7 @@ body{
 	padding-left: 45px;
 	text-indent: 10px;
 }
-hr{
-    border: 1px solid grey;
-}
+
 .imp{
 	text-indent: 57px;
 	border-top: 1px solid #ccc !important;
@@ -150,79 +200,8 @@ hr{
  }
 
 
-/*ESTILOS DE INDEX SIGNUP*/
-#input-numero{
-	position: relative;
-	right: 3px;
-	width: 40%;
-	height: 49px;
-	border: 1px solid #d8dfe4;
-	background-color: whitesmoke;
-	margin-left: 0;
-}
-.boton-numero{
-	border-bottom-left-radius:3px;
-	border-top-left-radius: 3px;
-	padding: 15px;
-	border-style: none;
-	margin-right: 0; 
-	margin-left: 20%;
-}
-.fa-angle-down{
-	padding-left: 5px;
-}
-.flecha-index2{
-	text-align: center;
-	font-size: 50px;
-	margin-top: 10px;
-}
-#new-div{
-	padding-right: 20%;
-}
-#p-titulo-index2{
-	font-size: 40px;
-}
 
-img{
-	width: 40px;
-	padding-right: 5px;
-}
-.icon{
-	background-color: red;
-}
-.input-field{
-	width: 10%;
-}
 
-.controls{
-	position: absolute;
-	z-index: 200;
-	bottom: 20px;
-	left: 20px;
-	border-radius: 10px;
-}
-
-img{
-    width: 138px;
-    padding-right: 5px;
-    padding-left: 7px;
-    margin: 24px;
-}
-
-ul li{
-    font-size: 62px;
-    padding-bottom: 24px;
-}
-
-ul li .paises{
-    position: relative;
-    bottom: 39px;
-}
-
-.close{
-    padding-left: 628px;
-    font-size: 46px;
-}
 #found{
 	background-color: #AC58FA ;
 	color: white;
@@ -361,64 +340,44 @@ ul li .paises{
 
 
 /*ESTILOS DE INDEX PROFILE*/
-
-/*
-.btn{
-	margin-top: -500px;
-	margin-left: 300px;
-}*/
-
 .nav-index5{
 	background-color: #c4ccdf;
 }
-.card{
-	margin: 0px; /*quitar espacio que se generaba arriba de la imagen*/
-}
-/*
-#imgDisplay{
-	border-radius: 50%;
-	width: 15%;
-	height: 10%;
-
-	display: inline-block;
-
-}
-*/
 .btn-index5{
 	background-color: #cccdce;
 	color: black;
 	margin-top: 20px;
 }
-
 .fa-index5{
 	margin-left: 20px;
 	margin-top: 15px;
 }
-
 .flow-text-index5{
 	background-color: #cccdce;
 }
-
 .texto-index5{
-	margin-top: 10px;
+	margin: 10px 0;
 }
-.caja-vacia{
-    background-color: #c4ccdf;
-    margin-bottom: 0;
+.caja-vacia-index5{
+  background-color: #c4ccdf;
+  margin-bottom: 0;
 }
-
 .materialboxed{
-    width: 100%;
+  width: 100%;
 }
-
 .card-content{
 	text-align: center;
 	padding: 10px;
 }
-
+.changes{
+	background-color: #ff00bf;
+	color: white;
+	font-weight: bolder;
+	width: 70%;
+	border: none;
+	height: 40px;
+	margin-bottom: 50px;
+}
 input{ /*inputs sin bordes*/
 	border:none;
 }
-=======
-
-
