@@ -3,34 +3,67 @@ $(document).ready(function() {
   $("#btnEdit").click(function() {
     $("#uploadImage").show();
   });
-  $('select').material_select();
-    $(".button-collapse").sideNav();
+  
+  $(".button-collapse").sideNav();
+
 });
+$('select').material_select();
+
+/*DATA DE USUARIOS
+
+function Perfil (user, email, foto) 
+{
+  this.userId = user;
+  this.email = email;
+  this.foto = foto;
+}
+var usuarios = [];
+function crearUsuario (){
+  var nombre = $(".input1-index3").val();
+  var email = $(".input2-index3").val();
+  usuarios.push(new Perfil(nombre, email, "assets/image/user.jpg"));
+  console.log(usuarios)
+  return usuarios
+
+}*/
 
 /***************************************SIGN UP TELÉFONO********************************************/
-
 var siguiente = $(".siguiente");
+;
 
-siguiente.click(function(event){
-  var numero = $("#input-numero");
-  if(numero.val() == "" || !(/^\d{9}$/.test(numero.val()))){
-    event.preventDefault()
+$(".select").change(function(){
+  var select = $(".select option:selected").val()
+  if(select == "1"){
+    $(".pais").html("+56");
   }
-  else{
-    codigo;
-    while(codigolab != ingresacod){
-      codigo;
-    }
-
-    var codigo = function(){
-      var numero = 100 + Math.floor(Math.random() * 500);
-      var codigolab = "LAB-" + numero;
-      alert("Tu código de inscripción es: " + codigolab);
-      var ingresacod = prompt("Ingresa tu código: ");
-    }
+  else if(select == "2"){
+    $(".pais").html("+52");
+  }
+   else if(select == "3"){
+    $(".pais").html("+51");
   }
 })
 
+
+    siguiente.attr('disabled','disabled');
+    $('#input-numero').change(function(){
+        if($(this).val != ''|| !(/^\d{9}$/.test(numero.val()))){
+            siguiente.addClass("pink");
+            siguiente.removeAttr('disabled');
+            var numero = 100 + Math.floor(Math.random() * 500);
+            var codigolab = "LAB-" + numero;
+            alert("Tu código de inscripción es: " + codigolab);
+            var ingresacod = prompt("Ingresa tu código: ");
+            while(codigolab!=ingresacod){
+              var ingresacod = prompt("Ingresa tu código: "); 
+            }
+        }
+        else{
+            siguiente.click(function(event){
+              event.preventDefault();
+            })
+        }
+    });
 /********************************************SIGN UP SECTION****************************************/
   var boton = $(".btn-index3");
   var sign = $(".sign");
@@ -39,7 +72,7 @@ siguiente.click(function(event){
 
   if($(".filled-in").change(function(){
       if ($(this).prop("checked")){
-        boton.addClass("pink")
+        boton.addClass("pink");
       }
       else{
         boton.removeClass("pink");
@@ -64,9 +97,11 @@ siguiente.click(function(event){
         $(".input2-index3").val("");   
     }
     else{      
-      $(".alert").hide()
+      $(".alert").hide();
+      crearUsuario();
     }
   })
+  
 /******************************************SECCION PROFILE*******************************************/
 var date = new Date();
 
@@ -206,6 +241,4 @@ function handleFileSelect(evt) {
 }
 
 $('#uploadImage').on('change', handleFileSelect);
-
-
-
+ 
